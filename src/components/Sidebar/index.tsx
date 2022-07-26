@@ -6,24 +6,19 @@ import profileButton from "../../assets/profile-button.svg";
 export const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
-      <header>
-        <img src={background} alt="background" />
-      </header>
+      <img className={styles.cover} src={background} alt="background" />
 
-      <section className={styles.content}>
-        <div className={styles.profile}>
-          <img src={profile} alt="profile" />
-        </div>
-        <div className={styles.info}>
-          <p>Leslie Alexander</p>
-          <span>UI Designer</span>
-        </div>
-      </section>
+      <div className={styles.profile}>
+        <strong>Leslie Alexander</strong>
+        <span>UI Designer</span>
+      </div>
 
-      <button className={styles.profileEdit}>
-        <img src={profileButton} alt="Editar perfil" />
-        Editar Perfil
-      </button>
+      <footer className={styles.footer}>
+        <a href="#">
+          <img src={profileButton} alt="Editar perfil" />
+          Editar Perfil
+        </a>
+      </footer>
     </aside>
   );
 };

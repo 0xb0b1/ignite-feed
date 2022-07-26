@@ -12,7 +12,23 @@
 	--gray-7: #E1E1E6;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background: var(--gray-1);
-	color: var(--white);
+	color: var(--gray-7);
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
 }
