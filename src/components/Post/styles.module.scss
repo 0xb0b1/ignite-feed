@@ -1,0 +1,20 @@
+.post {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 2.5rem;
+  border-radius: .5rem;
+  border: 1px solid var(--green-light);
+}
+
+.authorInfo {}
