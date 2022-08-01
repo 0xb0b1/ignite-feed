@@ -1,7 +1,7 @@
-import styles from "./styles.module.scss";
 import background from "../../assets/background.svg";
-import profile from "../../assets/profile.svg";
 import profileButton from "../../assets/profile-button.svg";
+
+import styles from "./styles.module.scss";
 
 export const Sidebar = () => {
   return (
