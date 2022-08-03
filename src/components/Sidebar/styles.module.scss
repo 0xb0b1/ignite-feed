@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: var(--gray-2);
+  background-color: var(--gray-800);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -20,17 +20,17 @@
     font-style: normal;
     font-size: 16px;
     line-height: 160%;
-    color: var(--gray-7);
+    color: var(--gray-100);
   }
 
   span {
 
-    color: var(--gray-5);
+    color: var(--gray-400);
   }
 }
 
 .footer {
-  border-top: 1px solid var(--gray-3);
+  border-top: 1px solid var(--gray-600);
   margin-top: 1.5rem;
 
   padding: 1.5rem 2rem 2rem;
@@ -38,8 +38,8 @@
   a {
     width: 100%;
     background: transparent;
-    color: var(--green-light);
-    border: 1px solid var(--green-light);
+    color: var(--green-300);
+    border: 1px solid var(--green-300);
     border-radius: .5rem;
     height: 3.125rem;
     font-weight: bold;
