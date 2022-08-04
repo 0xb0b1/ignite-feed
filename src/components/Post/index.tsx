@@ -1,3 +1,4 @@
+import { Comments } from "../Comments";
 import styles from "./styles.module.scss";
 
 interface PostProps {
@@ -49,6 +50,12 @@ export const Post = ({ author, content }: PostProps) => {
           <button type="submit">Publicar</button>
         </footer>
       </form>
+
+      <div className={styles.commentList}>
+        <Comments />
+        <Comments />
+        <Comments />
+      </div>
     </article>
   );
 };
